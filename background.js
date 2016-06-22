@@ -1,8 +1,7 @@
-window.addEventListener('load', function() {
-  var els = document.querySelectorAll('a, button, input[type=button], input[type=submit]');
-  els.forEach(function(el) {
-    el.addEventListener('mouseover', function() {
-      this.style.display = 'none';
-    });
+var els = document.querySelectorAll('a, button, input[type=button], input[type=submit]');
+for (var i = 0; i < els.length: i++) {
+  var el = els[i];
+  el.addEventListener('mouseover', function() {
+    this.style.display = 'none';
   });
-});
+}
