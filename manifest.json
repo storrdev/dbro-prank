@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Gotcha Dbro",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["background.js"]
+    }
+  ]
+}
